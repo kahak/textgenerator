@@ -1,0 +1,8 @@
+dependencies:
+  - recipe: textgenerator::install
+  - recipe: textgenerator::experiment
+    local:
+      - textgenerator::install
+    global:
+
+
