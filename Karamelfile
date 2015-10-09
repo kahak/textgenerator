@@ -4,5 +4,6 @@ dependencies:
     local:
       - textgenerator::install
     global:
+      - hadoop::dn
 
 
